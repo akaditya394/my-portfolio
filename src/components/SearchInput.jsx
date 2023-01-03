@@ -15,7 +15,7 @@ const SearchInput = () => {
         <MagnifyingGlassIcon className="hidden lg:block h-5 w-5" />
       </div>
       <input
-        value="Best developer in the world"
+        value="best developer in the world"
         className="border-none outline-none w-[85%]"
       />
       <div className="flex flex-row justify-around items-center w-[10%]">
