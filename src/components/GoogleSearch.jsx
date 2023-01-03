@@ -16,7 +16,7 @@ const GoogleSearch = () => {
       <SearchInput />
       <div className="flex flex-row gap-2">
         <Button
-          onClick={navigate("/adityakumar")}
+          onClick={() => navigate("/adityakumar")}
           styles="rounded-md text-sm bg-[#f8f9fa] px-4 py-2"
         >
           Google Search

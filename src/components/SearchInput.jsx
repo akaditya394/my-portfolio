@@ -9,7 +9,7 @@ const SearchInput = () => {
   return (
     <div
       className="flex flex-row items-center justify-between rounded-full 
-    border-[1.5px] w-[90%] md:w-[45%] px-4 py-2"
+    border-[1.5px] w-[90%] md:w-[45%] px-4 py-2 mx-auto"
     >
       <div className="w-[5%]">
         <MagnifyingGlassIcon className="hidden lg:block h-5 w-5" />

@@ -2,11 +2,10 @@ import React from "react";
 import Button from "./Button";
 import { Bars4Icon } from "@heroicons/react/24/solid";
 
-const Navbar = () => {
+const Navbar = ({ styles }) => {
   return (
     <div
-      className=" flex flex-row items-center gap-4 justify-end 
-    pt-5 px-4"
+      className={`${styles} flex flex-row items-center gap-4 justify-end px-4`}
     >
       <p className="text-sm">Gmail</p>
       <p className="text-sm">Images</p>
