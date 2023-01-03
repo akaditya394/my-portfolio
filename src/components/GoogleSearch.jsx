@@ -5,8 +5,12 @@ import SearchInput from "./SearchInput";
 
 const GoogleSearch = () => {
   return (
-    <div className="flex flex-col justify-around items-center">
-      <img src={require("../assets/images/googleLogo.png")} alt="logo" />
+    <div className="flex flex-col justify-start items-center gap-6 mt-16">
+      <img
+        src={require("../assets/images/googleLogo.png")}
+        alt="logo"
+        className="object-contain"
+      />
       <SearchInput />
       <div className="flex flex-row gap-2">
         <Button styles="rounded-md text-sm bg-[#f8f9fa] px-4 py-2">

@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen flex flex-col justify-start">
       <Navbar />
       <GoogleSearch />
       <Footer />
