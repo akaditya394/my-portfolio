@@ -4,14 +4,14 @@ import Item from "./Item";
 const About = () => {
   return (
     <div
-      className="lg:w-[35%] w-[80%] mt-10 flex flex-col items-start gap-5 
+      className="lg:w-[30%] w-[80%] mt-10 flex flex-col items-start gap-5 
 border-l-2 p-4 mx-auto"
     >
       <p className="text-[#202124] text-xl">About</p>
       <p className="text-[#4d5156] text-md">
-        Aliquip elit duis aute veniam esse ipsum nostrud sit sit qui aute ut.
-        Sit ullamco nulla mollit sit in. Sit sit nulla eiusmod nulla commodo
-        enim ex in cupidatat Lorem elit veniam.
+      Meri Ek taang nakli hai, Mai hockey ka bohoth bada khiladi tha.
+Ek din Uday bhai ko meri kisi baat pe gussa aagaya aur mere he hockey se meri taang ke do tukde kar diye.
+Lekin dil ke bohot ache hai, Fauran mujhe hospital le gaye aur ye nakli taang lagwayi.
       </p>
       <p className="text-[#202124] text-md">
         <span className="font-semibold">Born:</span> 4 June 2001
