@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import About from "./About";
 import Button from "./Button";
 import Details from "./Details";
+import GoogleFooter from "./GoogleFooter";
 import ImageBoxes from "./ImageBoxes";
-import Item from "./Item";
+import Projects from "./Projects";
 import ResultItem from "./ResultItem";
 
 const Content = () => {
@@ -42,69 +44,9 @@ const Content = () => {
         <ImageBoxes />
         <Details />
       </div>
-      <div className="w-[100%] mx-auto flex flex-row items-start justify-between">
-        {contentType === "projects" && (
-          <div className="mt-10 flex flex-col gap-10 w-[55%]">
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-          </div>
-        )}
-
-        <div
-          className="w-[35%] mt-10 flex flex-col items-start gap-5 
-        border-l-2 p-4"
-        >
-          <p className="text-[#202124] text-xl">About</p>
-          <p className="text-[#4d5156] text-md">
-            Aliquip elit duis aute veniam esse ipsum nostrud sit sit qui aute
-            ut. Sit ullamco nulla mollit sit in. Sit sit nulla eiusmod nulla
-            commodo enim ex in cupidatat Lorem elit veniam.
-          </p>
-          <p className="text-[#202124] text-md">
-            <span className="font-semibold">Born:</span> 4 June 2001
-          </p>
-          <p className="text-[#202124] text-md">
-            <span className="font-semibold">Education:</span> Indian Institue of
-            Information Technology
-          </p>
-          <div className="flex flex-col items-start w-[100%]">
-            <p className="text-[#202421] text-lg font-semibold">Projects</p>
-            <div className="mt-3 flex flex-row overflow-x-scroll w-[100%] gap-4">
-              <Item
-                name="Web3 Crowdfunding"
-                src={require("../assets/images/thirdweblogo.jpeg")}
-                time="7 July 2022"
-              />
-              <Item
-                name="Netflix Clone"
-                src={require("../assets/images/netflixlogo.png")}
-                time="7 July 2022"
-              />
-              <Item
-                name="Instagram Clone"
-                src={require("../assets/images/instalogo.jpg")}
-                time="7 July 2022"
-              />
-              <Item
-                name="LinkedIn Clone"
-                src={require("../assets/images/linkedinlogo.jpg")}
-                time="7 July 2022"
-              />
-              <Item
-                name="Aalekha"
-                src={require("../assets/images/reactlogo.png")}
-                time="7 July 2022"
-              />
-              <Item
-                name="Twitter Clone"
-                src={require("../assets/images/twitter.png")}
-                time="7 July 2022"
-              />
-            </div>
-          </div>
-        </div>
+      <div className="w-[100%] mx-auto flex lg:flex-row flex-col-reverse items-start justify-between">
+        {contentType === "projects" && <Projects />}
+        <About />
       </div>
     </div>
   );

@@ -1,10 +1,11 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = ({ page }) => {
   return (
     <div
-      className="bg-[#f2f2f2] absolute w-screen \
-    bottom-0 text-[#70757a]"
+      className={`bg-[#f2f2f2] w-[100%] ${
+        page === "home" && "absolute bottom-0"
+      } text-[#70757a]`}
     >
       <div className="px-3 py-3 border-b-2">
         <p className="text-sm text-[#70757a]">India</p>

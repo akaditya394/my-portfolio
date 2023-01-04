@@ -8,7 +8,7 @@ const Home = () => {
     <div className="h-screen flex flex-col justify-start">
       <Navbar styles="pt-5" />
       <GoogleSearch />
-      <Footer />
+      <Footer page="home" />
     </div>
   );
 };
