@@ -9,9 +9,10 @@ border-l-2 p-4 mx-auto"
     >
       <p className="text-[#202124] text-xl">About</p>
       <p className="text-[#4d5156] text-md">
-      Meri Ek taang nakli hai, Mai hockey ka bohoth bada khiladi tha.
-Ek din Uday bhai ko meri kisi baat pe gussa aagaya aur mere he hockey se meri taang ke do tukde kar diye.
-Lekin dil ke bohot ache hai, Fauran mujhe hospital le gaye aur ye nakli taang lagwayi.
+        Meri Ek taang nakli hai, Mai hockey ka bohoth bada khiladi tha. Ek din
+        Uday bhai ko meri kisi baat pe gussa aagaya aur mere he hockey se meri
+        taang ke do tukde kar diye. Lekin dil ke bohot ache hai, Fauran mujhe
+        hospital le gaye aur ye nakli taang lagwayi.
       </p>
       <p className="text-[#202124] text-md">
         <span className="font-semibold">Born:</span> 4 June 2001
@@ -25,31 +26,37 @@ Lekin dil ke bohot ache hai, Fauran mujhe hospital le gaye aur ye nakli taang la
         <div className="mt-3 flex flex-row overflow-x-scroll w-[100%] gap-4">
           <Item
             name="Web3 Crowdfunding"
+            link="https://reliable-zuccutto-8cd4f5.netlify.app/"
             src={require("../assets/images/thirdweblogo.jpeg")}
             time="7 July 2022"
           />
           <Item
             name="Netflix Clone"
+            link="https://github.com/akaditya394/netflix_clone"
             src={require("../assets/images/netflixlogo.png")}
             time="7 July 2022"
           />
           <Item
             name="Instagram Clone"
+            link="https://github.com/akaditya394/instagram-clone"
             src={require("../assets/images/instalogo.jpg")}
             time="7 July 2022"
           />
           <Item
             name="LinkedIn Clone"
+            link="https://github.com/akaditya394/linkedin-clone"
             src={require("../assets/images/linkedinlogo.jpg")}
             time="7 July 2022"
           />
           <Item
             name="Aalekha"
+            link="https://www.github.com/aalekha"
             src={require("../assets/images/reactlogo.png")}
             time="7 July 2022"
           />
           <Item
             name="Twitter Clone"
+            link="https://www.github.com/twitter-clone"
             src={require("../assets/images/twitter.png")}
             time="7 July 2022"
           />
