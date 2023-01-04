@@ -13,11 +13,13 @@ const ResultsSearch = () => {
   return (
     <div className="border-b-2">
       <div className="flex flex-row gap-2 justify-between items-center pt-5 mb-5">
-        <img
-          src={require("../assets/images/googleLogo.png")}
-          alt="logo"
-          className="ml-5 md:h-10 md:block hidden"
-        />
+        <a href="/">
+          <img
+            src={require("../assets/images/googleLogo.png")}
+            alt="logo"
+            className="ml-5 md:h-10 md:block hidden"
+          />
+        </a>
         <SearchInput />
         <Navbar styles="hidden md:flex" />
       </div>
