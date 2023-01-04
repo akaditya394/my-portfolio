@@ -17,7 +17,9 @@ const Details = () => {
         <p className="text-lg text-[#2A4165]">
           <FontAwesomeIcon icon={faTwitter} /> Twitter
         </p>
-        <p className="text-sm text-[#2A4165]">@UnsolicitedGyan</p>
+        <p className="text-sm text-[#2A4165]">
+          <a href="https://twitter.com/UnsolicitedGyan">@UnsolicitedGyan</a>
+        </p>
       </div>
       <div
         className="rounded-lg bg-[#E2EEFF] flex flex-col
@@ -26,7 +28,9 @@ const Details = () => {
         <p className="text-lg text-[#2A4165]">
           <FontAwesomeIcon icon={faGithub} /> GitHub
         </p>
-        <p className="text-sm text-[#2A4165]">github.com/akaditya394</p>
+        <p className="text-sm text-[#2A4165]">
+          <a href="https://github.com/akaditya394">akaditya394</a>
+        </p>
       </div>
       <div
         className="rounded-lg bg-[#E2EEFF] flex flex-col
@@ -35,7 +39,9 @@ const Details = () => {
         <p className="text-lg text-[#2A4165]">
           <FontAwesomeIcon icon={faInstagram} /> Instagram
         </p>
-        <p className="text-sm text-[#2A4165]">@akadiitya2020</p>
+        <p className="text-sm text-[#2A4165]">
+          <a href="https://www.instagram.com/akadiitya2020/">@akadiitya2020</a>
+        </p>
       </div>
       <div
         className="rounded-lg bg-[#E2EEFF] flex flex-col
