@@ -9,10 +9,11 @@ border-l-2 p-4 mx-auto"
     >
       <p className="text-[#202124] text-xl">About</p>
       <p className="text-[#4d5156] text-md">
-        Meri Ek taang nakli hai, Mai hockey ka bohoth bada khiladi tha. Ek din
-        Uday bhai ko meri kisi baat pe gussa aagaya aur mere he hockey se meri
-        taang ke do tukde kar diye. Lekin dil ke bohot ache hai, Fauran mujhe
-        hospital le gaye aur ye nakli taang lagwayi.
+        Currently pursuing a B.Tech in Computer Science and Engineering at the
+        Indian Institute of Information Technology, Sonepat, I am on course to
+        graduate in 2024. My academic journey has equipped me with a deep
+        understanding of computer science principles, making me well-prepared to
+        tackle challenges.
       </p>
       <p className="text-[#202124] text-md">
         <span className="font-semibold">Born:</span> 4 June 2001
